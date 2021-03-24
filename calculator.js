@@ -63,6 +63,9 @@ function inputNumber(numb, input){
         console.log('numb1');
         if(input.numb1<100000000){input.numb1 = input.numb1*10 + numb;}
         document.getElementById("display0").textContent = input.numb1;        
+        document.getElementById("display1").textContent = ''; 
+        document.getElementById("display2").textContent = ''; 
+        document.getElementById("display3").textContent = ''; 
     }
     else{
         console.log('numb2');
