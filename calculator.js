@@ -79,6 +79,7 @@ function operand(input,operator){
         document.getElementById("display0").textContent = input.numb2;
         document.getElementById("display1").textContent = input.operand;
         document.getElementById("display2").textContent = limitDigit(input.numb1);
+        document.getElementById("display3").textContent = "";
     }
     else{
         input.numb1 = operate(input.numb1,input.numb2,input.operand);
