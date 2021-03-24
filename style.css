@@ -49,8 +49,5 @@ body,html{
     font-size: 7.5vmin;
     font-weight:750;
     height: 75%;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
     width: 60vmin;
 }
