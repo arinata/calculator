@@ -287,19 +287,19 @@ buttonBckSpc.addEventListener('click', function(e){
             if(numb1.value.length>1){
                 numb1.value = numb1.value.substring(0,numb1.value.length-1);
                 if(numb1.value.length==1){numb1.sign=1;}
-                document.getElementById("display0").textContent = parseFloat(numb1.value)*numb1.sign; 
+                document.getElementById("display0").textContent = limitDigitDisplay(parseFloat(numb1.value)*numb1.sign); 
             }
         }
         if(input.flag1==1){
             if(numb2.value.length>1){
                 numb2.value = numb2.value.substring(0,numb2.value.length-1);
                 if(numb2.value.length==1){numb2.sign=1;}
-                document.getElementById("display0").textContent = parseFloat(numb2.value)*numb2.sign;
+                document.getElementById("display0").textContent = limitDigitDisplay(parseFloat(numb2.value)*numb2.sign);
             }
             else if(numb2.value.length==1){
                 document.getElementById("display2").textContent = '';
                 document.getElementById("display1").textContent = '';
-                document.getElementById("display0").textContent = parseFloat(numb1.value)*numb1.sign; 
+                document.getElementById("display0").textContent = limitDigitDisplay(parseFloat(numb1.value)*numb1.sign); 
                 input.operand=null;
                 input.flag1=0;
                 numbRst(numb2);
