@@ -9,7 +9,7 @@ body,html{
 }
 
 .displayContainer{
-    height: 40vmin;
+    height: 25vmin;
     width: 60vmin;
     background-color: deepskyblue;
     margin-bottom: 2vmin;
@@ -24,6 +24,38 @@ body,html{
     display: grid;
     grid-template-rows: 15vmin 15vmin 15vmin 15vmin;
     grid-template-columns: 15vmin 15vmin 15vmin 15vmin;
+}
+
+.container0{
+    display: grid;
+    grid-template-rows: 42vmin 28vmin;
+    grid-template-columns: 56vmin;
+}
+
+.container1{
+    display: grid;
+    grid-template-rows: 14vmin 14vmin 14vmin;
+    grid-template-columns: 14vmin 14vmin 14vmin 14vmin;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 42vmin 14vmin;
+}
+
+.container3{
+    display: grid;
+    grid-template-rows: 14vmin 14vmin;
+}
+
+.container4{
+    display: grid;
+    grid-template-columns: 14vmin 14vmin 14vmin;
+}
+
+.container5{
+    display: grid;
+    grid-template-columns: 28vmin 14vmin;
 }
 
 .number{
@@ -46,7 +78,7 @@ body,html{
 }
 
 .display{
-    font-size: 7.5vmin;
+    font-size: 5vmin;
     font-weight:750;
     height: 75%;
     width: 60vmin;
